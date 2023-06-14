@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "firstName": "Rupali",
+      "lastName": "Zodape",
+      "country": "in",
+      "email": "rgwadkar@gmail.com",
+      "password": "Pass@1234",
+      "confirmPassword": "Pass@1234",
+      "id": 1
+    }
+  ]
+}
