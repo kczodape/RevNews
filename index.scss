@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   padding: 0px;
   margin: 0px;
@@ -162,3 +163,169 @@ body {
     width: 100%;
   }
 }
+=======
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: whitesmoke;
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ########################################################################################################## */
+/* ############################################  Login Page Css  ############################################  */
+/* ########################################################################################################## */
+
+.head {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  border-bottom: 5px solid purple;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  img {
+    width: 100px;
+  }
+  h1 {
+    text-align: center;
+    padding: 5px 0;
+    background: linear-gradient(to right, red, blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+.login {
+  display: flex;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  .svg {
+    width: 46%;
+  }
+  .login_form {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      text-align: center;
+      background: linear-gradient(to right, red, blue);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+    #invalid {
+      color: red;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      input,
+      select {
+        border: none;
+        border-bottom: 1px solid lightgrey;
+        box-shadow: 0px 5px 7px -2px lightgrey;
+        padding: 10px 5px;
+        border-radius: 0 0 5px 5px;
+        outline: none;
+        margin-bottom: 10px;
+      }
+      i {
+        cursor: pointer;
+        margin-bottom: 15px;
+        width: 17px;
+      }
+      button {
+        padding: 8px 5px;
+        border: 1px solid purple;
+        border-radius: 5px;
+        background-color: #fff;
+        font-size: 16px;
+        transition: 0.3s ease;
+        cursor: pointer;
+        &:hover {
+          background-color: #302ea3;
+          color: white;
+          border: 1px solid #302ea3;
+        }
+      }
+    }
+    p {
+      a {
+        text-decoration: none;
+        border-bottom: 1px solid blue;
+        padding-bottom: 3px;
+      }
+    }
+  }
+}
+
+/* ########################################################################################################## */
+/* ############################################  Registration Page Css  ############################################  */
+/* ########################################################################################################## */
+
+.login {
+  .login_form {
+    form {
+      .reg_inpt {
+        display: flex;
+        justify-content: space-between;
+        input {
+          width: 45%;
+        }
+      }
+      select {
+        border-radius: 5px;
+      }
+      label {
+        color: red;
+        font-size: 13px;
+        margin: 3px 0px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+/* ########################################################################################################## */
+/* ############################################  INdex Page Css  ############################################  */
+/* ########################################################################################################## */
+
+.indexh1 {
+  text-align: center;
+  margin-top: 25px;
+}
+.newsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .perticularNewsBox {
+    margin: 15px 0px;
+  }
+}
+.categoryDropdown {
+  padding: 8px 0 8px 12px;
+  cursor: pointer;
+  li:hover {
+    background: whitesmoke;
+  }
+  option:hover {
+    background: whitesmoke;
+  }
+}
+
+.card {
+  width: 18rem;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+>>>>>>> b27905d5fa820c0c5ed0cdbea361f6a5b393d8dc
