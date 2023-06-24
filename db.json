@@ -8,6 +8,35 @@
       "password": "Pass@1234",
       "confirmPassword": "Pass@1234",
       "id": 1
+    },
+    {
+      "firstName": "Swapna",
+      "lastName": "swapna",
+      "country": "de",
+      "email": "swpna@gmail.com",
+      "password": "Pass@1234",
+      "confirmPassword": "Pass@1234",
+      "id": 3
+    },
+    {
+      "firstName": "krunal",
+      "lastName": "Wadkar",
+      "country": "pk",
+      "email": "dipaliwadkar@gmail.com",
+      "id": 5,
+      "password": "Pass@1234",
+      "confirmPassword": "Pass@7872"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "source": "dfghjkl",
+      "imgSrc": "fghjkl;",
+      "title": "ertyuiop[",
+      "desc": "sdfghj",
+      "aouther": "dfghjkl",
+      "publishedDate": "sdfghjkl"
     }
   ]
 }
