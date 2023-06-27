@@ -21,36 +21,74 @@
         <h1>Register Here</h1>
         <form id="registrationForm">
           <div class="reg_inpt">
-            <input
-              type="text"
-              id="firstName"
-              placeholder="First name*"
-              required
-            />
-            <input
-              type="text"
-              id="lastName"
-              placeholder="Last name*"
-              required
-            />
+            <div class="inpLabel">
+              <label for="">Enter your first name</label>
+              <input
+                type="text"
+                id="firstName"
+                placeholder="First name*"
+                required
+              />
+            </div>
+            <div class="inpLabel">
+              <label for="">Enter your last name</label>
+              <input
+                type="text"
+                id="lastName"
+                placeholder="Last name*"
+                required
+              />
+            </div>
           </div>
-          <select id="country">
-            <option value="Select country" selected>Select country</option>
-          </select>
-          <input type="email" id="email" placeholder="Email*" required />
-          <input
-            type="password"
-            id="password"
-            placeholder="Password*"
-            required
-          />
-          <input
-            type="password"
-            id="confirmPassword"
-            placeholder="Confirm password*"
-            required
-          />
-          <label id="label"></label>
+          <div class="reg_inpt">
+            <div class="inpLabel">
+              <label for="">Enter your age</label>
+              <input type="text" id="age" placeholder="Age*" required />
+            </div>
+            <div class="inpLabel">
+              <label for="">Enter your contact number</label>
+              <input
+                type="text"
+                id="contactNumber"
+                placeholder="Contact Number*"
+                required
+              />
+            </div>
+          </div>
+          <div class="reg_inpt">
+            <div class="inpLabel">
+              <label for="">Enter Email</label>
+              <input type="email" id="email" placeholder="Email*" required />
+            </div>
+            <div class="inpLabel">
+              <label for="">Select country</label>
+              <select id="country">
+                <option value="Select country" selected>Select country</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="reg_inpt">
+            <div class="inpLabel">
+              <label for="">Enter password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Password*"
+                required
+              />
+            </div>
+            <div class="inpLabel">
+              <label for="">Renter password</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirm password*"
+                required
+              />
+            </div>
+          </div>
+          <label id="label" class="check"></label>
           <button type="submit">Sign Up</button>
         </form>
         <p>Already having account? <a href="/login.html">Login here</a></p>

@@ -21,16 +21,37 @@
     {
       "firstName": "krunal",
       "lastName": "Wadkar",
-      "country": "pk",
+      "country": "Select country",
       "email": "dipaliwadkar@gmail.com",
       "id": 5,
       "password": "Pass@1234",
-      "confirmPassword": "Pass@7872"
+      "confirmPassword": "Pass@7872",
+      "age": "25",
+      "contactNumber": "7418529634"
+    },
+    {
+      "firstName": "saloni",
+      "lastName": "Narnawre",
+      "age": "21",
+      "contactNumber": "85274185263",
+      "country": "fr",
+      "email": "saloni@gmail.com",
+      "password": "Pass@1234",
+      "id": 6
+    },
+    {
+      "firstName": "Jhon",
+      "lastName": "wick",
+      "age": "85",
+      "contactNumber": "8530278729",
+      "country": "Select country",
+      "email": "jhon@gmail.com",
+      "password": "Pass@1234567",
+      "id": 7
     }
   ],
   "news": [
     {
-      "id": 1,
       "source": "dfghjkl",
       "imgSrc": "fghjkl;",
       "title": "ertyuiop[",

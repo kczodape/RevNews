@@ -102,13 +102,22 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.login .login_form form .reg_inpt label {
+  color: black;
+  font-weight: 500;
+}
 .login .login_form form .reg_inpt input {
-  width: 45%;
+  width: 95%;
+}
+.login .login_form form .reg_inpt .inpLabel {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 .login .login_form form select {
   border-radius: 5px;
 }
-.login .login_form form label {
+.login .login_form form .check {
   color: red;
   font-size: 13px;
   margin: 3px 0px;
@@ -120,7 +129,7 @@ body {
 /* ########################################################################################################## */
 .indexh1 {
   text-align: center;
-  margin-top: 25px;
+  margin-top: -60px !important;
 }
 
 .newsBox {
@@ -149,6 +158,9 @@ body {
   width: 18rem;
   margin-bottom: 20px;
   margin: 20px;
+}
+.card img {
+  height: 220px;
 }
 
 @media (max-width: 768px) {
@@ -231,4 +243,41 @@ h1 {
 }
 .profile .profileSvg {
   width: 40%;
+}
+
+.resetBody {
+  display: flex;
+  justify-content: space-evenly;
+}
+.resetBody input {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 8px;
+  outline: none;
+}
+
+.updateBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.updateBody .reg_inpt {
+  margin: 5px 0 5px 0;
+}
+.updateBody .reg_inpt input {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 8px;
+  outline: none;
+}
+.updateBody .countryMail {
+  display: flex;
+  justify-content: space-between;
+}
+.updateBody .countryMail select {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 8px;
+  outline: none;
+  width: 49.5%;
 }/*# sourceMappingURL=index.css.map */

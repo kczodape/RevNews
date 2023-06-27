@@ -25,6 +25,8 @@ document
 
     var firstName = document.getElementById("firstName").value;
     var lastName = document.getElementById("lastName").value;
+    var age = document.getElementById("age").value;
+    var contactNumber = document.getElementById("contactNumber").value;
     var country = document.getElementById("country").value;
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
@@ -50,10 +52,11 @@ document
     var user = {
       firstName: firstName,
       lastName: lastName,
+      age: age,
+      contactNumber: contactNumber,
       country: country,
       email: email,
       password: password,
-      confirmPassword: confirmPassword,
     };
 
     fetch("http://localhost:3000/users")

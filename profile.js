@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     document.getElementById("userName").textContent = user.firstName+" "+user.lastName;
     document.getElementById("firstName").textContent = user.firstName;
+    document.getElementById("age").textContent = user.age;
+    document.getElementById("contactNumber").textContent = user.contactNumber;
     document.getElementById("lastName").textContent = user.lastName;
     document.getElementById("email").textContent = user.email;
     document.getElementById("countrySpan").textContent = user.country;
@@ -90,6 +92,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("firstNameInput").value = user.firstName;
   document.getElementById("lastNameInput").value = user.lastName;
+  document.getElementById("ageInput").value = user.age;
+  document.getElementById("contactNumberInput").value = user.contactNumber;
   document.getElementById("country").value = user.country;
   document.getElementById("emailInput").value = user.email;
 
@@ -97,11 +101,15 @@ document.addEventListener("DOMContentLoaded", function () {
   updateButton.addEventListener("click", function () {
     var updatedFirstName = document.getElementById("firstNameInput").value;
     var updatedLastName = document.getElementById("lastNameInput").value;
+    var updatedAge = document.getElementById("ageInput").value;
+    var updatedContactNumber = document.getElementById("contactNumberInput").value;
     var updatedCountry = document.getElementById("country").value;
     var updatedEmail = document.getElementById("emailInput").value;
 
     var updateUser = Object.assign({}, user);
     updateUser.firstName = updatedFirstName;
+    updateUser.age = updatedAge;
+    updateUser.contactNumber = updatedContactNumber;
     updateUser.lastName = updatedLastName;
     updateUser.email = updatedEmail;
     updateUser.country = updatedCountry;
@@ -124,11 +132,15 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Profile updated successfully !");
         document.getElementById("userName").textContent = user.firstName+" "+lastName;
         document.getElementById("firstName").textContent =user.firstName;
+        document.getElementById("age").textContent = user.age;
+        document.getElementById("contactNumber").textContent =user.contactNumber;
         document.getElementById("lastName").textContent = user.lastName;
         document.getElementById("email").textContent = user.email;
         document.getElementById("countrySpan").textContent = user.country;
 
         document.getElementById("firstNameInput").value = "";
+        document.getElementById("ageInput").value = "";
+        document.getElementById("contactNumberInput").value = "";
         document.getElementById("lastNameInput").value = "";
         document.getElementById("country").value = "";
         document.getElementById("emailInput").value = "";

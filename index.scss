@@ -107,14 +107,23 @@ body {
       .reg_inpt {
         display: flex;
         justify-content: space-between;
+        label {
+          color: black;
+          font-weight: 500;
+        }
         input {
-          width: 45%;
+          width: 95%;
+        }
+        .inpLabel {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
         }
       }
       select {
         border-radius: 5px;
       }
-      label {
+      .check {
         color: red;
         font-size: 13px;
         margin: 3px 0px;
@@ -129,7 +138,7 @@ body {
 /* ########################################################################################################## */
 .indexh1 {
   text-align: center;
-  margin-top: 25px;
+  margin-top: -60px !important;
 }
 .newsBox {
   display: flex;
@@ -156,6 +165,9 @@ body {
   width: 18rem;
   margin-bottom: 20px;
   margin: 20px;
+  img {
+    height: 220px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -239,5 +251,42 @@ h1 {
   }
   .profileSvg {
     width: 40%;
+  }
+}
+
+.resetBody {
+  display: flex;
+  justify-content: space-evenly;
+  input {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+  }
+}
+
+.updateBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .reg_inpt {
+    margin: 5px 0 5px 0;
+    input {
+      border: 1px solid lightgray;
+      border-radius: 8px;
+      padding: 8px;
+      outline: none;
+    }
+  }
+  .countryMail {
+    display: flex;
+    justify-content: space-between;
+    select {
+      border: 1px solid lightgray;
+      border-radius: 8px;
+      padding: 8px;
+      outline: none;
+      width: 49.5%;
+    }
   }
 }
